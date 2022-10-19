@@ -6,7 +6,7 @@
 - Introduction
 C syntax
 First, let’s talk about C syntax. C took an unusual and clever approach to declaration syntax. Instead of describing the types with special syntax, one writes an expression involving the item being declared, and states what type that expression will have. Thus
-
+trying my first one
 int x;
 declares x to be an int: the expression ‘x’ will have type int. In general, to figure out how to write the type of a new variable, write an expression involving that variable that evaluates to a basic type, then put the basic type on the left and the expression on the right.
 
@@ -445,3 +445,34 @@ Scale and maintain larger applications with Go’s low memory footprint and doc 
 
 Go’s garbage collector means DevOps/SRE teams don’t have to worry about memory management. And Go’s automatic documentation generator (godoc) makes code self-documenting–lowering maintenance overhead and establishing best practices from the get-go.
 
+How to install go!
+
+Download and install Go quickly with the steps described here.
+
+For other content on installing, you might be interested in:
+
+Managing Go installations -- How to install multiple versions and uninstall.
+Installing Go from source -- How to check out the sources, build them on your own machine, and run them.
+1. Go download.
+
+
+Download Go for Windows
+go1.19.2.windows-amd64.msi (135 MB)
+Don't see your operating system here? Try one of the other downloads.
+
+Note: By default, the go command downloads and authenticates modules using the Go module mirror and Go checksum database run by Google. Learn more.
+2. Go install.
+Select the tab for your computer's operating system below, then follow its installation instructions.
+
+Linux Mac Windows
+Open the MSI file you downloaded and follow the prompts to install Go.
+By default, the installer will install Go to Program Files or Program Files (x86). You can change the location as needed. After installing, you will need to close and reopen any open command prompts so that changes to the environment made by the installer are reflected at the command prompt.
+
+Verify that you've installed Go.
+In Windows, click the Start menu.
+In the menu's search box, type cmd, then press the Enter key.
+In the Command Prompt window that appears, type the following command:
+$ go version
+Confirm that the command prints the installed version of Go.
+3. Go code.
+You're set up! Visit the Getting Started tutorial to write some simple Go code. It takes about 10 minutes to complete.
